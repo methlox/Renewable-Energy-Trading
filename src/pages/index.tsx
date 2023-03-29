@@ -12,6 +12,7 @@ interface RenewableEnergyCreditInstance {
   sellCredits: (amount: string) => Promise<void>;
 }
 
+
 const Home: NextPage = () => {
 
   const [account, setAccount] = useState<string>("");
