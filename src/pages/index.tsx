@@ -4,7 +4,7 @@ import Head from "next/head";
 // import { SignIn, SignInWithMetamaskButton } from "@clerk/nextjs";
 import { useState } from "react";
 import Web3 from "web3";
-// import RenewableEnergyCredit from "./contracts/RenewableEnergyCredit.json";
+import RenewableEnergyCredit from "../contracts/build/RenewableEnergyCredit.json";
 
 interface RenewableEnergyCreditInstance {
   energyCredits: () => Promise<string>;
